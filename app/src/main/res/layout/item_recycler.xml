@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:foregroundGravity="center"
+        android:src="@mipmap/ic_launcher"
+        tools:ignore="MissingConstraints"
+        android:background="#7e7968"/>
+    
+    
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/twName"
+        android:textColor="#f10808"/>
+
+</android.support.constraint.ConstraintLayout>
